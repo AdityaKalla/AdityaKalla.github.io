@@ -3,40 +3,88 @@
 <head>
   <title>My Introduction</title>
   <style>
+    
+    .headsec{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+        
+
+    }
     header {
-      background-color: magenta;
+      background-color: #eebcfa;
       padding: 10px;
+      border-radius: 0.5rem;
     }
 
     section {
-      background-color: black;
+      background-color: rgb(67, 164, 255);
       color: white;
       padding: 10px;
+      border-radius: 0.5rem;
+      
+    }
+    .homegrid{
+        display: grid;
+        grid-template-columns: 0.00001fr 1fr ;
+        gap: 10px;
+    }
+    .navigationbar{
+        border: solid 1px black;
+        
+        border-radius: 10px;
+
+    }
+    .morebutton{
+        border: solid white 1px;
+        background-color: rgb(245, 227, 227);
+        border-radius: 0.5rem;
+    }
+    .morebutton:hover{
+        background-color: rgb(67, 164, 255); /* Green */
+        color: white;
+       cursor: pointer;
     }
   </style>
 </head>
 <body>
+    <div class="homegrid">
+        <div class="navigationbar">
+            <button class="morebutton"><img src="threedots.png" alt="more" width="20" height="20"></button>
+        </div>
+        <div class="homeflex">
+            <div class = "headsec">
+                <header >
+                    <marquee><h1>Welcome to My Page</h1></marquee>
+                  </header>
+                
+                  <section>
+                    <h2>About Me</h2>
+                    <p>Heyy! My name is Aditya Kalla and I'm excited to tell you a bit about myself. I love coding, gaming, and music, and I'm passionate about <a href="music.html">MUSIC</a> , <a href="computers.html">COMPUTERS</a> and SPACE.</p>
+                  </section> 
+             </div>
+              <div>
+                <h1>My College:<h1>
+                    <h2>Gayatri Vidhya Parishid College of Engineering<h2>
+                  <img src="gvp.jpg">
+              </div>
+              <div>
+                <h2><a href="vm.html">VIRTUAL MACHINE</a></h2>
+              <footer>
+                <p>Contact me at: adityakalla2006a@gmail.com</p>
+              </footer>
+              <a href="www.thehindu.com">The Hindu</a><br>
+              <a href="www.deccanchronicle.com">Deccan Chronicle</a><br>
+              <a href="www.tv9.com">TV9</a><br>
+            
+              </div>
+            
+        </div>
+    </div>
+    
 
-  <header>
-    <h1>Welcome to My Page</h1>
-  </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Heyy! My name is Aditya Kalla and I'm excited to tell you a bit about myself. I love coding, gaming, and music, and I'm passionate about <a href="music.html">MUSIC</a> , <a href="computers.html">COMPUTERS</a> and SPACE.</p>
-  </section> 
-<h1>My College:<h1>
-  <h2>Gayatri Vidhya Parishid College of Engineering<h2>
-<img src="gvp.jpg">
-<hr>
-<hr>
-<h2><a href="vm.html">VIRTUAL MACHINE</a></h2>
-  <footer>
-    <p>Contact me at: adityakalla2006a@gmail.com</p>
-  </footer>
-  <a href="www.thehindu.com">The Hindu</a><br>
-  <a href="www.deccanchronicle.com">Deccan Chronicle</a><br>
-  <a href="www.tv9.com">TV9</a><br>
 
 </body>
 </html>
