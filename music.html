@@ -1,4 +1,3 @@
-
 <html>
 <head>
     <title>Music</title>
@@ -38,6 +37,24 @@
         .video-container {
             border: 1px solid black; 
             margin-bottom: 20px;
+            display: flex;
+        }
+        .musicflex{
+            display: flex;
+            gap: 10px;
+           flex-wrap: wrap;
+        }
+        .genres{
+            flex-basis: 50%;
+            flex-shrink: 1;
+        }
+        .musicimg{
+            flex-basis: 10%;
+            padding: 30px;
+            
+            flex-shrink: 1;
+            border: solid 1px black;
+            
         }
     </style>
 </head>
@@ -53,17 +70,25 @@
             A music genre is a conventional category that identifies some pieces of music as belonging to a shared tradition or set of conventions. Genre is to be distinguished from musical form and musical style, although in practice these terms are sometimes used interchangeably.<br><br>
             Music can be divided into genres in numerous ways, sometimes broadly and with polarity, such as for popular music, as opposed to art music or folk music; or, as another example, religious music and secular music. The artistic nature of music means that these classifications are often subjective and controversial, and some genres may overlap. As genres evolve, sometimes new music is lumped into existing categories or else a proliferation of derivative subgenres, fusion genres and "micro genres" starts to accrue.
         </p>
-        <h2>Some popular genres of music are:</h2>
-        <ol>
-            <li>pop</li>
-            <li>Hip-hop</li>
-            <li>EDM & Electronic Music</li>
-            <li>Raggaeton</li>
-            <li>K-pop</li>
-            <li>Rock</li>
-            <li>Metal</li>
-            <li>Classical Music</li>
-        </ol>
+        <div class = "musicflex">
+            <div class="genres">
+                        <h2>Some popular genres of music are:</h2>
+                <ol>
+                    <li>pop</li>
+                    <li>Hip-hop</li>
+                    <li>EDM & Electronic Music</li>
+                    <li>Raggaeton</li>
+                    <li>K-pop</li>
+                    <li>Rock</li>
+                    <li>Metal</li>
+                    <li>Classical Music</li>
+                </ol>
+            </div>
+            <div class= "musicimg">
+                <img src = "music.jpg" alt = "music">
+            </div>
+        </div>
+        
     </section>
 
     <div class="black-box">
